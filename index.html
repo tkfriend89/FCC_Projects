@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <center>
+        <h1 id="title">Survey Form</h1>
+        <div class="container">
+            <div>
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+            </div>
+            <form id="survey-form">
+                <div class="item1">
+                <label id="name-label">*Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="First and ">
+                </div>
+                <div class="item2">
+                <label id="email-label">*Email:</label>
+                <input type="email" id="email" name="user_email" placeholder="Email">
+                </div>
+                <div class="item3">
+                <label id="number-label">*Age:</label>
+                <input type="number" id="number" name="user_age" placeholder="Age">
+                </div>
+                <div class="item4">
+                <label>Which option best describes your current role?</label>
+                <select id="dropdown1">
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+                </div>
+                <div class="item5">
+                <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <input type="radio" name="recommendation">Definitely</input>
+                    <input type="radio" name="recommendation">Maybe</input>
+                    <input type="radio" name="recommendation">Not sure</input>                    
+                </div>
+                <div class="item6">
+                    <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <select id="dropdown2">
+                        <option>Select an option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </div>
+                <div class="item7">
+                    <label>Things that should be improved in the future(Check all that apply):</label>
+                        <input type="checkbox" value="choice1">Front-end Projects</input>
+                        <input type="checkbox" value="choice2">Back-end Projects</input>
+                        <input type="checkbox" value="choice3">Data Visualization</input>
+                        <input type="checkbox" value="choice4">Challenges</input>
+                        <input type="checkbox" value="choice5">Open Source Community</input>
+                        <input type="checkbox" value="choice6">Gitter help rooms</input>
+                        <input type="checkbox" value="choice7">Videos</input>
+                        <input type="checkbox" value="choice8">City Meetups</input>
+                        <input type="checkbox" value="choice9">Wiki</input>
+                        <input type="checkbox" value="choice10">Forum</input>
+                        <input type="checkbox" value="choice11">Additional Courses</input>
+                </div>
+                <div class="item8">
+                    <label>Any Comments or Suggestions?</label>
+                    <input type="text"></input>
+                </div>
+                <div class="item8">
+                    <button id="submit">Submit</input>
+                </div>
+            </form>
+            </div>
+        </div>
+</center>
+    </body>
+</html>
